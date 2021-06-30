@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Doctor App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="singup">Singup</string>
+    <string name="email">Email</string>
+    <string name="title_activity_main_login">MainLoginActivity</string>
+    <string name="patient">Patient</string>
+    <string name="doctor">Doctor</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="select_a_user_type">Select a user type</string>
+    <string name="ceackValid">Email must be standard and password must be 6 characters long</string>
+    <string name="doctorAppTitle">Doctor App</string>
+    <string name="patientAppTitle">Patient App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="doctors">doctors</string>
+    <string name="patients">patients</string>
+    <string name="make_an_appointment">Make an appointment</string>
+    <string name="canceling_an_appointment">Canceling an appointment</string>
+    <string name="appointment_room">Appointment Room</string>
+    <string name="appointment">Appointment</string>
+    <string name="exit">exit</string>
+    <string name="title_activity_doctor2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="time">Time</string>
+    <string name="start_a_meeting">Start a meeting</string>
+</resources>

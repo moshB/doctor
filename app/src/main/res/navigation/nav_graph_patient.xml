@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_patient"
+    app:startDestination="@id/ListDoctors">
+
+    <fragment
+        android:id="@+id/ListDoctors"
+        android:name="mosh.bo.doctorapp.patient.ListDoctorsFragment"
+        android:label="@string/doctors"
+        tools:layout="@layout/fragment_list_doctors">
+        <action
+            android:id="@+id/action_ListDoctors_to_ListPatients"
+            app:destination="@id/ListPatients" />
+        <action
+            android:id="@+id/action_ListDoctors_to_AppointmentFragment"
+            app:destination="@id/AppointmentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ListPatients"
+        android:name="mosh.bo.doctorapp.patient.ListPatientsFragment"
+        android:label="@string/patients"
+        tools:layout="@layout/fragment_list_patients">
+
+
+        <action
+            android:id="@+id/action_ListPatients_to_AppointmentFragment"
+            app:destination="@id/AppointmentFragment" />
+        <action
+            android:id="@+id/action_ListPatients_to_ListDoctors"
+            app:destination="@id/ListDoctors" />
+    </fragment>
+    <fragment
+        android:id="@+id/AppointmentFragment"
+        android:name="mosh.bo.doctorapp.patient.AppointmentFragment"
+        android:label="@string/appointment"
+        tools:layout="@layout/fragment_appointment">
+
+
+        <action
+            android:id="@+id/action_AppointmentFragment_to_ListDoctors"
+            app:destination="@id/ListDoctors" />
+    </fragment>
+</navigation>
