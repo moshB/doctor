@@ -1,6 +1,6 @@
 # doctor
-download project from link and open whit android studio 
-after open project in firebase
+\n download project from link and open whit android studio 
+\n after open project in firebase
 1.create Authentication in firebase
 2.create realtime datebase in firebase
 3.add app ofor android in firebase
@@ -15,3 +15,6 @@ now open android studio
 finaly
 Run on an Android emulator
 good luck
+
+or dwonload from wetransfer and install on your android phone
+https://we.tl/t-rOHI8DbGab
